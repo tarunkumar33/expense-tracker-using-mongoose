@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    <section class="container">
+        <h1>SignUp Page</h1>
+        <form class="signupForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">EMail Id:</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <button id="btn" class="btn btn-dark">Sign Up</button>
+            </div>
+        </form>
+        <a href="./login.html">Existing User Login</a>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="signup.js"></script>
+</body>
+</html>

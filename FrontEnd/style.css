@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* border:solid; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: aquamarine;
+}
+section{
+    /* border:solid; */
+    margin: 5px auto;
+    text-align: center;
+}
+
+.form-group{
+    margin: 20px;
+}
+.bg-dark{
+    background-color: #343a40;
+}
